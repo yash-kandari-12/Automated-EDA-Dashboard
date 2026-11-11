@@ -75,7 +75,7 @@ pip install -r requirements.txt
 Alternatively:
 
 ```bash
-pip install pandas numpy matplotlib seaborn plotly streamlit openpyxl
+python -m pip install pandas numpy matplotlib seaborn plotly streamlit openpyxl
 ```
 
 ### 4. Run the dashboard
