@@ -1,0 +1,10 @@
+,Missing Values,Data Type,Unique Values
+Pregnancies,0,int64,17
+Glucose,0,int64,136
+BloodPressure,0,int64,47
+SkinThickness,0,int64,51
+Insulin,0,int64,186
+BMI,0,float64,248
+DiabetesPedigreeFunction,0,float64,517
+Age,0,int64,52
+Outcome,0,int64,2

@@ -1,0 +1,5 @@
+1. Dataset contains 768 records and 9 columns.
+2. 34.90% of records have Outcome = 1.
+3. Glucose has the highest numerical mean.
+4. Glucose has the strongest absolute correlation with Outcome (0.467).
+5. Potential outliers: Pregnancies: 4 potential outliers, Glucose: 5 potential outliers, BloodPressure: 45 potential outliers, SkinThickness: 1 potential outliers, Insulin: 34 potential outliers, BMI: 19 potential outliers, DiabetesPedigreeFunction: 29 potential outliers, Age: 9 potential outliers

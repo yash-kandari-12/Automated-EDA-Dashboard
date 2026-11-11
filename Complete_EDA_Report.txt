@@ -1,0 +1,68 @@
+============================================================
+       COMPREHENSIVE EXPLORATORY DATA ANALYSIS
+============================================================
+
+1. DATASET INFORMATION
+----------------------------------------
+Total Rows: 768
+Total Columns: 9
+Total Missing Values: 0
+Duplicate Records: 0
+
+2. DATA TYPES
+----------------------------------------
+Pregnancies                   int64
+Glucose                       int64
+BloodPressure                 int64
+SkinThickness                 int64
+Insulin                       int64
+BMI                         float64
+DiabetesPedigreeFunction    float64
+Age                           int64
+Outcome                       int64
+
+3. MISSING VALUE ANALYSIS
+----------------------------------------
+Pregnancies                 0
+Glucose                     0
+BloodPressure               0
+SkinThickness               0
+Insulin                     0
+BMI                         0
+DiabetesPedigreeFunction    0
+Age                         0
+Outcome                     0
+
+4. DESCRIPTIVE STATISTICS
+----------------------------------------
+       Pregnancies  Glucose  BloodPressure  SkinThickness  Insulin     BMI  DiabetesPedigreeFunction     Age  Outcome
+count       768.00   768.00         768.00         768.00   768.00  768.00                    768.00  768.00   768.00
+mean          3.85   120.89          69.11          20.54    79.80   31.99                      0.47   33.24     0.35
+std           3.37    31.97          19.36          15.95   115.24    7.88                      0.33   11.76     0.48
+min           0.00     0.00           0.00           0.00     0.00    0.00                      0.08   21.00     0.00
+25%           1.00    99.00          62.00           0.00     0.00   27.30                      0.24   24.00     0.00
+50%           3.00   117.00          72.00          23.00    30.50   32.00                      0.37   29.00     0.00
+75%           6.00   140.25          80.00          32.00   127.25   36.60                      0.63   41.00     1.00
+max          17.00   199.00         122.00          99.00   846.00   67.10                      2.42   81.00     1.00
+
+5. CORRELATION ANALYSIS
+----------------------------------------
+                          Pregnancies  Glucose  BloodPressure  SkinThickness  Insulin   BMI  DiabetesPedigreeFunction   Age  Outcome
+Pregnancies                      1.00     0.13           0.14          -0.08    -0.07  0.02                     -0.03  0.54     0.22
+Glucose                          0.13     1.00           0.15           0.06     0.33  0.22                      0.14  0.26     0.47
+BloodPressure                    0.14     0.15           1.00           0.21     0.09  0.28                      0.04  0.24     0.07
+SkinThickness                   -0.08     0.06           0.21           1.00     0.44  0.39                      0.18 -0.11     0.07
+Insulin                         -0.07     0.33           0.09           0.44     1.00  0.20                      0.19 -0.04     0.13
+BMI                              0.02     0.22           0.28           0.39     0.20  1.00                      0.14  0.04     0.29
+DiabetesPedigreeFunction        -0.03     0.14           0.04           0.18     0.19  0.14                      1.00  0.03     0.17
+Age                              0.54     0.26           0.24          -0.11    -0.04  0.04                      0.03  1.00     0.24
+Outcome                          0.22     0.47           0.07           0.07     0.13  0.29                      0.17  0.24     1.00
+
+6. TARGET DISTRIBUTION
+----------------------------------------
+Outcome
+0    500
+1    268
+
+============================================================
+END OF EDA REPORT
